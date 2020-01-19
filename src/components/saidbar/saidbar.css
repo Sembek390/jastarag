@@ -1,0 +1,35 @@
+#saidbar-item  {
+    display: grid;
+    grid-template-rows: 35px 1fr 1fr;
+}
+.saidbar-tema {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.temadnya {
+    display: grid;
+    background-color: chartreuse;
+    font-size: 25px;
+    justify-items: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.tema {
+    display: grid;
+    justify-content: left;
+    height: 40px;
+    align-items: center;
+    
+}
+
+#img1 {
+    display: grid;
+    width: 100%;
+    padding-top: 10px;
+}
+#img2 {
+    margin-bottom: 20px;
+}
+#text1 {
+    font-size: 14px;
+}

@@ -1,0 +1,14 @@
+.saidbar2-item {
+    font-size: 25px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.reklamadnya {
+    display: grid;
+    background-color: chartreuse;
+    justify-items: center;
+}
+#imgjas {
+    width: 400px;
+}
+

@@ -1,0 +1,112 @@
+.header-item {
+    display: grid;
+    height: 205px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: 
+    "h1"
+    "h2"
+    "h3"
+    "h4";
+
+}
+.header-item-1 {
+    grid-area: h1;
+    height: 40px;
+}
+.header-item-2 {
+    grid-area: h2;
+    height: 70px;
+}
+.row {
+    grid-area: h3;
+    height: 40px;
+}
+.header-elen {
+    grid-area: h4;
+    height: 55px;
+}
+.header-item-1  {
+    display: grid;
+    width: 100%;
+    grid-template-columns: repeat(6, 1fr);
+    color: #fff;
+    background-color: rgb(12, 14, 11);
+    font-size: 15px;
+    justify-content: right;
+    align-items: center;
+    justify-items: center;
+    padding-right: 150px;
+    margin: 0;
+}
+.poisk {
+    grid-column: 4/5;
+}
+.header-item-2 {
+    display: grid;
+    grid-template-columns: 4fr 7fr;
+    width: 100%;
+}
+.yur {
+    display: grid;
+    height: 70px;
+    justify-items: right;
+    align-items: center;
+    font-family: initial;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+.gaz {
+    display: grid;
+    padding-left: 30px;
+    padding-top: 10px;
+    align-items: center;
+    color: rgb(184, 20, 20);
+    font-size: 35px;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.row {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    width: 100%;
+    background-color:#c00808;
+    color: #fff;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+}
+.row1 {
+    display: grid;
+    grid-column: 2/3;
+}
+.header-elen {
+    display: grid;
+    grid-template-columns: 2fr 8fr;
+    padding-top: 5px;
+    background-color: rgb(224, 238, 238);
+}
+.etkizer {
+    display: grid;
+    justify-items: right;
+    align-items: center;
+}
+.form {
+    display: grid;
+    justify-items: left;
+    padding-left: 30px;
+    font-size: 20px;
+    background-color: rgb(224, 238, 238);
+    height: 30px;
+    padding-top: 13px;
+
+}
+.btn {
+    background-color: rgb(209, 28, 28);
+    font-size: 20px;
+    border-top-right-radius: 30%;
+}
+
+
+
+

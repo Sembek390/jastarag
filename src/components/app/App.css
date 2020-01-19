@@ -1,0 +1,29 @@
+.app {
+    max-width: 1380px;
+    width: 100%;
+    display: grid;
+    grid-template-areas: 
+    "h h h h h"
+    ". s c s2 ."
+    "f f f f f";
+    grid-template-columns: 1fr 2fr 3fr 2fr 1fr;
+    grid-auto-rows: 212px 550px 50px;
+    grid-column-gap: 30px;
+    margin: 0 auto;
+}
+  
+.content-item {
+    grid-area: c;
+}
+.panel-footer {
+    grid-area: f;
+}
+.header-item {
+    grid-area: h;
+}
+#saidbar-item {
+        grid-area: s;
+    }
+.saidbar2-item {
+        grid-area: s2;
+    }

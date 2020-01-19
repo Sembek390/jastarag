@@ -1,0 +1,30 @@
+.content-item {
+    display: grid;
+}
+.novosti {
+    display: grid;
+    background-color: chartreuse;
+    font-size: 25px;
+    height: 35px;
+    justify-items: center;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+.janalik {
+    display: grid;
+    grid-template-columns: 150px 1fr;
+    
+}
+.img-thumbnail {
+    width: 150px;
+    display: grid;
+    justify-items: center;
+    height: 100px;
+}
+.text-novos1 {
+    display: grid;
+    font-size: 14px;
+    font-family: initial;
+    justify-items: left;
+    align-items: center;
+}

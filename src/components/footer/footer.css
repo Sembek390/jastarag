@@ -1,0 +1,8 @@
+.panel-footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: rgb(94, 92, 81);
+    color: black;
+    padding-left: 750px;
+    align-items: center;
+}
